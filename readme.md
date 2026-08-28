@@ -65,14 +65,12 @@ SPP XAI/
 │   └── index.html                  # main web UI
 ├── Procfile                        # Gunicorn entrypoint for deployment
 ├── app.py                          # Flask application and prediction logic
+├── model_features.joblib           # Expected model feature columns
 ├── model_setup_with_xai.py         # Training script (XAI generation removed from repo)
+|── readme.md                       # Project README
 ├── requirements.txt                # Python dependencies
 ├── smartphone_price_model.joblib   # Trained model artifact
-├── model_features.joblib           # Expected model feature columns
 ├── smartphones_data3.csv           # Smartphone dataset used for training and recommendations
-└── readme.md                       # Project README
-```
-
 ---
 
 ## Dataset
